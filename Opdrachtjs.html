@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht school html/js</title>
+    <link rel="stylesheet" href="Opdrachtjs.html">
+</head>
+<body>
+    <div id="Logo"><img src="images/images/juventus.jpg"></div>
+    <button onclick="document.getElementById('Logo').innerHTML = 'Hier stond een logo';">Vervang het Logo</button>
+
+    <div id="Logo2">Vervang het logo</div>
+    <button onclick="document.querySelector('#Logo2').innerHTML = 'Hier stond een Logo';">Vervang het Logo</button>
+
+    <div id="Knop">Knop</div>
+    <button class="Button" onclick="document.querySelector('#Knop').innerHTML = 'Dit was een Knop';">Klik op deze Knop</button>
+
+    <div id="image"><img src="images/images/zwart plaatje2.jpg"></div>
+    <button onclick="document.querySelector('#image').innerHTML = 'Dit was een plaatje';">Klik op deze Knop</button>
+    
+    <div id="Lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, illum.</div>
+    <button onclick="document.getElementById('Lorem').innerHTML = 'Hier stond een tekst';">Vervang de tekst</button>
+    
+    <div id="body">Klik hieronder</div>
+    <button onclick="document.querySelector('body').innerHTML = '';">Haal alles weg</button>
+</body>
+</html> 
